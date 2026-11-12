@@ -1,0 +1,271 @@
+html[data-theme="dark"] {
+  color-scheme: dark;
+  color: #e7edf5;
+  background: #101720;
+  --blue: #70bdf2;
+  --blue-dark: #3996d0;
+  --muted: #b2bfce;
+  --line: #334151;
+}
+
+html[data-theme="dark"] body {
+  color: #e7edf5;
+  background-color: #101720;
+  background-image: radial-gradient(circle, rgb(148 163 184 / 18%) 0.5px, transparent 0.7px);
+  background-size: 24px 24px;
+}
+
+html[data-theme="dark"] body::before {
+  display: none;
+}
+
+html[data-theme="dark"] body::after {
+  opacity: 0.025;
+}
+
+html[data-theme="dark"] .site-header {
+  background: #17212c;
+  box-shadow: 0 4px 18px rgb(0 0 0 / 25%);
+}
+
+html[data-theme="dark"] .brand {
+  color: #b7dfff;
+}
+
+html[data-theme="dark"] .main-nav {
+  border-top-color: #2b3948;
+}
+
+html[data-theme="dark"] .nav-link {
+  color: #c5d0dd;
+}
+
+html[data-theme="dark"] .search {
+  border-color: #354657;
+  background: #202c39;
+}
+
+html[data-theme="dark"] .search input {
+  color: #eef4fa;
+}
+
+html[data-theme="dark"] .search input::placeholder {
+  color: #9eacbb;
+}
+
+html[data-theme="dark"] .search-results,
+html[data-theme="dark"] .category-panel {
+  border-color: #354657;
+  background: #1a2531;
+  box-shadow: 0 16px 36px rgb(0 0 0 / 35%);
+}
+
+html[data-theme="dark"] .search-result__name,
+html[data-theme="dark"] .category-column h2 a {
+  color: #e2edf8;
+}
+
+html[data-theme="dark"] .search-result__category,
+html[data-theme="dark"] .search-results__empty,
+html[data-theme="dark"] .category-column a {
+  color: #b2bfce;
+}
+
+html[data-theme="dark"] .categories-section {
+  color: #e7edf5;
+}
+
+html[data-theme="dark"] .categories-heading h2,
+html[data-theme="dark"] .category-card-copy h3 {
+  color: #e7edf5;
+}
+
+html[data-theme="dark"] .categories-heading p,
+html[data-theme="dark"] .category-card-link {
+  color: #b2bfce;
+}
+
+html[data-theme="dark"] .category-card {
+  border-color: #2b3948;
+  background: #1a2531;
+  box-shadow: 0 9px 24px rgb(0 0 0 / 18%);
+}
+
+html[data-theme="dark"] .category-card:hover {
+  border-color: #43566a;
+  box-shadow: 0 17px 34px rgb(0 0 0 / 28%);
+}
+
+html[data-theme="dark"] .category-image-frame {
+  background: #202c39;
+}
+
+html[data-theme="dark"] .category-image-placeholder {
+  background: linear-gradient(140deg, #263646, #1c2a38);
+  color: #c0ccd8;
+}
+
+html[data-theme="dark"] .product-page {
+  color: #e7edf5;
+}
+
+html[data-theme="dark"] .product-catalog__header {
+  border-color: #2b3948;
+  background: linear-gradient(125deg, color-mix(in srgb, var(--catalog-accent) 23%, #17212c), #1a2531 72%, color-mix(in srgb, var(--catalog-accent) 18%, #17212c));
+  box-shadow: 0 12px 28px rgb(0 0 0 / 20%);
+}
+
+html[data-theme="dark"] .product-catalog__eyebrow {
+  border-color: color-mix(in srgb, var(--catalog-accent) 45%, #344354);
+  background: rgb(15 23 32 / 72%);
+}
+
+html[data-theme="dark"] .product-catalog__title,
+html[data-theme="dark"] .product-card__title,
+html[data-theme="dark"] .product-detail__title {
+  color: #e7edf5;
+}
+
+html[data-theme="dark"] .product-catalog__description,
+html[data-theme="dark"] .product-card__category,
+html[data-theme="dark"] .product-card__sku,
+html[data-theme="dark"] .product-detail__reference {
+  color: #afbdcc;
+}
+
+html[data-theme="dark"] .product-card,
+html[data-theme="dark"] .product-detail {
+  border-color: #2b3948;
+  background: #1a2531;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 18%);
+}
+
+html[data-theme="dark"] .product-card:hover {
+  border-color: #43566a;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 28%);
+}
+
+html[data-theme="dark"] .product-card__image,
+html[data-theme="dark"] .product-detail__image {
+  border-color: #334354;
+  background: linear-gradient(145deg, #202d3b, #253342);
+  color: #bdc9d6;
+}
+
+html[data-theme="dark"] .product-card__image span,
+html[data-theme="dark"] .product-detail__image span {
+  border-color: #536476;
+  background: rgb(23 33 44 / 84%);
+}
+
+html[data-theme="dark"] .product-card__stock,
+html[data-theme="dark"] .product-detail__availability {
+  color: #83d4b0;
+}
+
+html[data-theme="dark"] .product-card__stock-icon {
+  background: #203e3b;
+  color: #83d4b0;
+}
+
+html[data-theme="dark"] .product-detail__colors {
+  border-color: #334354;
+  background: #202c39;
+}
+
+html[data-theme="dark"] .product-detail__colors h2 {
+  color: #e7edf5;
+}
+
+.theme-toggle {
+  position: fixed;
+  z-index: 20;
+  right: 22px;
+  bottom: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-width: 76px;
+  min-height: 48px;
+  padding: 6px;
+  border: 1px solid #dce5ee;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 94%);
+  box-shadow: 0 8px 24px rgb(22 43 65 / 20%);
+  color: #77879a;
+  cursor: pointer;
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+  backdrop-filter: blur(12px);
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 11px 28px rgb(22 43 65 / 25%);
+}
+
+.theme-toggle:focus-visible {
+  outline: 3px solid #70bdf2;
+  outline-offset: 4px;
+}
+
+.theme-toggle__icon {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border-radius: 50%;
+  transition: color 180ms ease, background 180ms ease, transform 180ms ease;
+}
+
+.theme-toggle__icon svg {
+  display: block;
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.theme-toggle__icon--sun {
+  background: #fff2c8;
+  color: #bc7900;
+}
+
+.theme-toggle__icon--moon {
+  color: #8593a3;
+}
+
+html[data-theme="dark"] .theme-toggle {
+  border-color: #3c4d60;
+  background: rgb(31 43 57 / 96%);
+  box-shadow: 0 8px 26px rgb(0 0 0 / 36%);
+}
+
+html[data-theme="dark"] .theme-toggle__icon--sun {
+  background: transparent;
+  color: #8797a8;
+}
+
+html[data-theme="dark"] .theme-toggle__icon--moon {
+  background: #30486c;
+  color: #b9d7ff;
+}
+
+@media (max-width: 480px) {
+  .theme-toggle {
+    right: 14px;
+    bottom: 14px;
+    min-width: 70px;
+    min-height: 44px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle,
+  .theme-toggle__icon {
+    transition: none;
+  }
+}

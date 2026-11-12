@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Información, precio y contacto para consultar este</head> producto." />
+    <title>Detalle del producto | Librería y Papelería</title>
+    <link rel="icon" type="image/png" href="../assets/images/carrucel/favicon-carrucel.png" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/products.css" />
+    <link rel="stylesheet" href="../css/theme.css" />
+  </head>
+  <body>
+    <main class="product-page product-page--detail" id="product-detail-page">
+      <a class="product-page__back" id="product-detail-back" href="papeleria.html">← Volver a la categoría</a>
+
+      <article class="product-detail" aria-labelledby="product-detail-title">
+        <div class="product-detail__image" id="product-detail-image" role="img" aria-label="Espacio para la fotografía del producto">
+          <span>Espacio para fotografía</span>
+        </div>
+
+        <div class="product-detail__info">
+          <p class="product-detail__category" id="product-detail-category"></p>
+          <h1 class="product-detail__title" id="product-detail-title">Cargando producto…</h1>
+          <p class="product-detail__description" id="product-detail-description"></p>
+          <p class="product-detail__price" id="product-detail-price"></p>
+          <p class="product-detail__availability"><span class="product-card__stock-icon" aria-hidden="true">✓</span><span id="product-detail-availability"></span></p>
+
+          <section class="product-detail__colors" id="product-detail-colors" aria-labelledby="product-detail-colors-title" hidden>
+            <h2 id="product-detail-colors-title">Colores disponibles</h2>
+            <p>Consulta los tonos disponibles por WhatsApp.</p>
+            <span class="product-detail__color-pending">Colores por confirmar</span>
+          </section>
+
+          <p class="product-detail__reference" id="product-detail-reference"></p>
+
+          <a class="product-detail__contact" id="product-detail-contact" href="https://wa.me/50362011667" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M16 .8A15 15 0 0 0 3.1 23.5L1 31l7.7-2A15 15 0 1 0 16 .8Zm0 27.3a12.2 12.2 0 0 1-6.2-1.7l-.5-.3-4.6 1.2 1.2-4.5-.3-.5A12.2 12.2 0 1 1 16 28.1Zm6.7-9.1c-.4-.2-2.2-1.1-2.6-1.2-.3-.1-.6-.2-.8.2s-.9 1.2-1.1 1.4-.4.3-.8.1a10 10 0 0 1-3-1.8 11 11 0 0 1-2.1-2.6c-.2-.4 0-.6.2-.8l.6-.7c.2-.2.2-.4.4-.7.1-.2 0-.5 0-.7s-.8-2-1.1-2.7c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.3 3.5 1.5 3.7c.2.2 2.6 4 6.3 5.6.9.4 1.6.6 2.2.8.9.3 1.7.3 2.3.2.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5Z" />
+            </svg>
+            <span>Consultar por WhatsApp</span>
+            <strong>62011667</strong>
+          </a>
+        </div>
+      </article>
+    </main>
+    <script src="../js/product-detail.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+  </body>
+</html>
